@@ -41,6 +41,8 @@ For the basic start up (the hardware)
       
       When downloading roms use the rom set .78 they seem to be the only ones that work currently
       
+      If you want to use the speakers withot having a wire going from the speakersto an outlet which would be outside the biuld of the table I would get a stronger power supply, currently I am using a 2.5 amp to power the Pi, if you want to use the Pi to power te speakers, you should bet a 3 or 3.5 amp fuse, this way you can use the speakers in the table without the need of an extrnal power supply for just the speakers  
+      
       
       *links*
         *roms*
