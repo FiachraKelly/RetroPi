@@ -17,10 +17,7 @@ void setup() {
   pinMode(9, INPUT_PULLUP); //Start  
 }  
   
-  
 void loop() {  
-  
-  
   // Button labels:  
   int joystickUp = digitalRead(0);  
   int joystickDown = digitalRead(1);  
@@ -42,7 +39,6 @@ void loop() {
     Keyboard.release(218);  
   }  
   
-  
   // Joystick Down - Arrow Down Key  
   if (joystickDown == LOW) {  
     Keyboard.press(217);  
@@ -50,7 +46,6 @@ void loop() {
   else {  
     Keyboard.release(217);  
   }  
-  
   
   // Joystick Left - Arrow Left Key  
   if (joystickLeft == LOW) {  
@@ -60,7 +55,6 @@ void loop() {
     Keyboard.release(216);  
   }  
   
-  
   // Joystick Right - Arrow Right Key  
   if (joystickRight == LOW) {  
     Keyboard.press(215);  
@@ -68,7 +62,6 @@ void loop() {
   else {  
     Keyboard.release(215);  
   }  
-  
   
   // Button 1 - Left CTRL  
   if (button1 == LOW) {  
@@ -78,7 +71,6 @@ void loop() {
     Keyboard.release(128);  
   }  
   
-  
   // Button 2 - Left ALT  
   if (button2 == LOW) {  
     Keyboard.press(130);  
@@ -86,7 +78,6 @@ void loop() {
   else {  
     Keyboard.release(130);  
   }  
-  
   
   // Button 3 - Left CTRL  
   if (button3 == LOW) {  
@@ -96,7 +87,6 @@ void loop() {
     Keyboard.release(32);  
   }  
   
-  
   // Button 4 - Left CTRL  
   if (button4 == LOW) {  
     Keyboard.press(129);  
@@ -104,7 +94,6 @@ void loop() {
   else {  
     Keyboard.release(129);  
   }  
-  
   
   // Coin - 5  
   if (coin == LOW) {  
@@ -114,7 +103,6 @@ void loop() {
     Keyboard.release(53);  
   }  
   
-  
   // Start - 1  
   if (start == LOW) {  
     Keyboard.press(49); delay(100);  
@@ -122,5 +110,4 @@ void loop() {
   else {  
     Keyboard.release(49);  
   }  
-    
 }  
